@@ -1,6 +1,6 @@
 /*
 ID = 24003510
-NAME = Emir AZimil AKbar Bin Mohd Fauzi
+NAME = Emir Azimil Akbar Bin Mohd Fauzi
 */
 
 #include <iostream>
