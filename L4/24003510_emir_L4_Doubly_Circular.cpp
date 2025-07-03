@@ -80,15 +80,17 @@ public:
 };
 
 int main() {
-    Node* node1 = new Node("Ali");
-    Node* node2 = new Node("Ahmed");
-    Node* node3 = new Node("Alice");
+    Node* node1 = new Node("Abu");
+    Node* node2 = new Node("Ahmad");
+    Node* node3 = new Node("Azman");
+    Node* node4 = new Node("Hamza");
 
     DoublyCircularLinkedList std_list;
 
     std_list.add_item(node1);
     std_list.add_item(node2);
     std_list.add_item(node3);
+    std_list.add_item(node4);
 
     std_list.display_list();           // Print list forward
     std_list.display_list_backward();  // Print list backward
