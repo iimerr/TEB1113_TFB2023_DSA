@@ -60,14 +60,18 @@ void pop() {
       cout << endl ;
 }
     // Display the stack
-    void display_stack() {
-        Node* currNode = top;
-        while (currNode != nullptr) {
-            cout << currNode->name << " -> ";
-            currNode = currNode->next;
+   void display_stack() {
+    Node* currNode = top;
+    while (currNode != nullptr) {
+        cout << currNode->name;
+        if (currNode->next != nullptr) {
+            cout << " -> ";
         }
-        cout << "NULL" << endl;
+        currNode = currNode->next;
     }
+    cout << endl;
+}
+
 };
 
 int main() {
